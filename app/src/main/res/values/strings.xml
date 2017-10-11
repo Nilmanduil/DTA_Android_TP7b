@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">Ultimate QCM</string>
+    
+    <string name="theme">Thème</string>
+    <string name="score">Votre score :</string>
+    <string name="next">Suivant</string>
+    <string name="redo">Recommencer</string>
+    <string name="right">Bien joué !</string>
+    <string name="wrong">Dommage ...</string>
+    <string name="goodAnswer">Bonne réponse :</string>
+
+    <string name="question1">Comment appelle-t-on la viennoiserie à base de pâte à croissants contenant deux barres de chocolat ?</string>
+    <string name="question1_theme">Pâtisserie (ou troll ?)</string>
+    <string name="question1_a">Pain au chocolat</string>
+    <string name="question1_b">Chocolatine</string> <!-- Ici -->
+    <string name="question1_c">Ok, file-moi le point Godwin, on gagnera du temps</string>
+    <string name="question1_d">Sérieusement ?</string>
+
+    <string name="question2">Qu\'est-ce qui ne figure pas dans les 4 valeurs de l\'Agilité ?</string>
+    <string name="question2_theme">Méthodes de travail</string>
+    <string name="question2_a">Processus et les outils</string> <!-- Ici -->
+    <string name="question2_b">Logiciels opérationnels</string>
+    <string name="question2_c">Collaboration avec les clients</string>
+    <string name="question2_d">Individus et interactions</string>
+
+    <string name="question3">Quel est l\'OS mobile le plus intuitif et simple ?</string>
+    <string name="question3_theme">Mobilité (ou troll ?)</string>
+    <string name="question3_a">Android</string>
+    <string name="question3_b">Windows</string>
+    <string name="question3_c">iOS</string>
+    <string name="question3_d">Ca dépend des goûts</string> <!-- Ici -->
+
+    <string name="question4">Qu\'est-ce que GitHub ?</string>
+    <string name="question4_theme">Informatique</string>
+    <string name="question4_a">Une plateforme web de gestion de dépôts Git</string> <!-- Ici -->
+    <string name="question4_b">Une version améliorée de Git</string>
+    <string name="question4_c">Une clé USB permettant d'installer Git</string>
+    <string name="question4_d">Une interface graphique pour lier Git et SVN</string>
+
+    <string name="question5">Quelle est la couleur du cheval marron et blanc d\'Henri IV ?</string>
+    <string name="question5_theme">Histoire (ou équitation ?)</string>
+    <string name="question5_a">Bai</string>
+    <string name="question5_b">Alezan</string>
+    <string name="question5_c">Souris</string>
+    <string name="question5_d">Pie</string> <!-- Ici -->
+
+    <string name="question6">Lorsqu\'un pancake tombe dans la neige avant le 31 décembre, on dit qu\'il est :</string>
+    <string name="question6_theme">Humour</string>
+    <string name="question6_a">Tombé dans la neige avant le 31 décembre</string>
+    <string name="question6_b">Un frizby comestible</string>
+    <string name="question6_c">Une kipa surgelée</string> <!-- Ici -->
+    <string name="question6_d">La réponse D</string>
+
+    <string name="question7">Quelle est la distance Terre-Lune ?</string>
+    <string name="question7_theme">Astronomie</string>
+    <string name="question7_a">452100 km</string>
+    <string name="question7_b">384400 km</string> <!-- Ici -->
+    <string name="question7_c">300000 km</string>
+    <string name="question7_d">512000 km</string>
+
+    <string name="question8">Qui a écrit la théorie de la relativité restreinte ?</string>
+    <string name="question8_theme">Physique</string>
+    <string name="question8_a">Alan Turing</string>
+    <string name="question8_b">Albert Einstein</string> <!-- Ici -->
+    <string name="question8_c">Stephen Hawking</string>
+    <string name="question8_d">Ernest Rutherford</string>
+
+    <string name="question9">Combien fait la racine carrée de 121 ?</string>
+    <string name="question9_theme">Mathématiques</string>
+    <string name="question9_a">20</string>
+    <string name="question9_b">8</string>
+    <string name="question9_c">11</string> <!-- Ici -->
+    <string name="question9_d">12</string>
+
+    <string name="question10">Quel est le moyen de communication permettant d\'avoir le plus de spontanéité et d\'informations ?</string>
+    <string name="question10_theme">Communication</string>
+    <string name="question10_a">Visioconférence</string>
+    <string name="question10_b">Téléphone</string>
+    <string name="question10_c">Face à face</string> <!-- Ici -->
+    <string name="question10_d">Email</string>
+    
+</resources>
