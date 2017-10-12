@@ -6,10 +6,10 @@ package fr.codevallee.formation.android_tp7b;
 
 public class Question {
     public String label;
-    public String answerA;
-    public String answerB;
-    public String answerC;
-    public String answerD;
+    public String A;
+    public String B;
+    public String C;
+    public String D;
     public String theme;
     public char goodAnswer;
 }

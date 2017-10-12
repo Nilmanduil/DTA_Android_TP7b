@@ -9,117 +9,117 @@
     <string name="wrong">Dommage ...</string>
     <string name="goodAnswer">Bonne réponse :</string>
 
-    <array name="questions">
+    <string-array name="questions">
         <item>
-            <string-array name="question1">
-                <item>Comment appelle-t-on la viennoiserie à base de pâte à croissants contenant deux barres de chocolat ?</item> <!-- Question -->
-                <item>Pâtisserie (ou troll ?)</item> <!-- Thème -->
-                <item>Pain au chocolat</item> <!-- A -->
-                <item>Chocolatine</item> <!-- B -->
-                <item>Ok, file-moi le point Godwin, on gagnera du temps</item> <!-- C -->
-                <item>Sérieusement ?</item> <!-- D -->
-                <item>2</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Comment appelle-t-on la viennoiserie à base de pâte à croissants contenant deux barres de chocolat ?",
+                theme:"Pâtisserie (ou troll ?)",
+                A:"Pain au chocolat",
+                B:"Chocolatine",
+                C:"Ok, file-moi le point Godwin, on gagnera du temps",
+                D:"Sérieusement ?",
+                answer:"B"
+            }
         </item>
         <item>
-            <string-array name="question2">
-                <item>Qu\'est-ce qui ne figure pas dans les 4 valeurs de l\'Agilité ?</item> <!-- Question -->
-                <item>Méthodes de travail</item> <!-- Thème -->
-                <item>Processus et les outils</item> <!-- A -->
-                <item>Logiciels opérationnels</item> <!-- B -->
-                <item>Collaboration avec les clients</item> <!-- C -->
-                <item>Individus et interactions</item> <!-- D -->
-                <item>1</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Qu\'est-ce qui ne figure pas dans les 4 valeurs de l\'Agilité ?",
+                theme:"Méthodes de travail",
+                A:"Processus et les outils",
+                B:"Logiciels opérationnels",
+                C:"Collaboration avec les clients",
+                D:"Individus et interactions",
+                answer:"A"
+            }
         </item>
         <item>
-            <string-array name="question3">
-                <item>Quel est l\'OS mobile le plus intuitif et simple ?</item> <!-- Question -->
-                <item>Mobilité (ou troll ?)</item> <!-- Thème -->
-                <item>Android</item> <!-- A -->
-                <item>Windows</item> <!-- B -->
-                <item>iOS</item> <!-- C -->
-                <item>Ca dépend des goûts</item> <!-- D -->
-                <item>4</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Quel est l\'OS mobile le plus intuitif et simple ?",
+                theme:"Mobilité (ou troll ?)",
+                A:"Android",
+                B:"Windows",
+                C:"iOS",
+                D:"Ca dépend des goûts",
+                answer:"D"
+            }
         </item>
         <item>
-            <string-array name="question4">
-                <item>Qu\'est-ce que GitHub ?</item> <!-- Question -->
-                <item>Informatique</item> <!-- Thème -->
-                <item>Une plateforme web de gestion de dépôts Git</item> <!-- A -->
-                <item>Une version améliorée de Git</item> <!-- B -->
-                <item>Une clé USB permettant d'installer Git</item> <!-- C -->
-                <item>Une interface graphique pour lier Git et SVN</item> <!-- D -->
-                <item>1</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Qu\'est-ce que GitHub ?",
+                theme:"Informatique",
+                A:"Une plateforme web de gestion de dépôts Git",
+                B:"Une version améliorée de Git",
+                C:"Une clé USB permettant d'installer Git"
+                D:"Une interface graphique pour lier Git et SVN",
+                answer:"A"
+            }
         </item>
         <item>
-            <string-array name="question5">
-                <item>Quelle est la couleur du cheval marron et blanc d\'Henri IV ?</item> <!-- Question -->
-                <item>Histoire (ou équitation ?)</item> <!-- Thème -->
-                <item>Bai</item> <!-- A -->
-                <item>Alezan</item> <!-- B -->
-                <item>Souris</item> <!-- C -->
-                <item>Pie</item> <!-- D -->
-                <item>4</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Quelle est la couleur du cheval marron et blanc d\'Henri IV ?",
+                theme:"Histoire (ou équitation ?)",
+                A:"Bai",
+                B:"Alezan",
+                C:"Souris",
+                D:"Pie",
+                answer:"D"
+            }
         </item>
         <item>
-            <string-array name="question6">
-                <item>Lorsqu\'un pancake tombe dans la neige avant le 31 décembre, on dit qu\'il est :</item> <!-- Question -->
-                <item>Humour</item> <!-- Thème -->
-                <item>Tombé dans la neige avant le 31 décembre</item> <!-- A -->
-                <item>Un frizby comestible</item> <!-- B -->
-                <item>Une kipa surgelée</item> <!-- C -->
-                <item>La réponse D</item> <!-- D -->
-                <item>3</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Lorsqu\'un pancake tombe dans la neige avant le 31 décembre, on dit qu\'il est :",
+                theme:"Humour",
+                A:"Tombé dans la neige avant le 31 décembre",
+                B:"Un frizby comestible",
+                C:"Une kipa surgelée",
+                D:"La réponse D",
+                answer:"C"
+            }
         </item>
         <item>
-            <string-array name="question7">
-                <item>Quelle est la distance Terre-Lune ?</item> <!-- Question -->
-                <item>Astronomie</item> <!-- Thème -->
-                <item>452100 km</item> <!-- A -->
-                <item>384400 km</item> <!-- B -->
-                <item>300000 km</item> <!-- C -->
-                <item>512000 km</item> <!-- D -->
-                <item>2</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Quelle est la distance Terre-Lune ?",
+                theme:"Astronomie",
+                A:"452100 km",
+                B:"384400 km",
+                C:"300000 km",
+                D:"512000 km",
+                answer:"B"
+            }
         </item>
         <item>
-            <string-array name="question8">
-                <item>Qui a écrit la théorie de la relativité restreinte ?</item> <!-- Question -->
-                <item>Physique</item> <!-- Thème -->
-                <item>Alan Turing</item> <!-- A -->
-                <item>Albert Einstein</item> <!-- B -->
-                <item>Stephen Hawking</item> <!-- C -->
-                <item>Ernest Rutherford</item> <!-- D -->
-                <item>2</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Qui a écrit la théorie de la relativité restreinte ?",
+                theme:"Physique",
+                A:"Alan Turing",
+                B:"Albert Einstein",
+                C:"Stephen Hawking",
+                D:"Ernest Rutherford",
+                answer:"B"
+            }
         </item>
         <item>
-            <string-array name="question9">
-                <item>Combien fait la racine carrée de 121 ?</item> <!-- Question -->
-                <item>Mathématiques</item> <!-- Thème -->
-                <item>20</item> <!-- A -->
-                <item>8</item> <!-- B -->
-                <item>11</item> <!-- C -->
-                <item>12</item> <!-- D -->
-                <item>3</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Combien fait la racine carrée de 121 ?",
+                theme:"Mathématiques",
+                A:"20",
+                B:"8",
+                C:"11",
+                D:"12",
+                answer:"C"
+            }
         </item>
         <item>
-            <string-array name="question10">
-                <item>Quel est le moyen de communication permettant d\'avoir le plus de spontanéité et d\'informations ?</item> <!-- Question -->
-                <item>Communication</item> <!-- Thème -->
-                <item>Visioconférence</item> <!-- A -->
-                <item>Téléphone</item> <!-- B -->
-                <item>Face à face</item> <!-- C -->
-                <item>Email</item> <!-- D -->
-                <item>3</item> <!-- Bonne réponse -->
-            </string-array>
+            {
+                question:"Quel est le moyen de communication permettant d\'avoir le plus de spontanéité et d\'informations ?",
+                theme:"Communication",
+                A:"Visioconférence",
+                B:"Téléphone",
+                C:"Face à face",
+                D:"Email",
+                answer:"C"
+            }
         </item>
-    </array>
+    </string-array>
     
 </resources>
