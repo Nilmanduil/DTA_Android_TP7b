@@ -1,42 +1,43 @@
 package fr.codevallee.formation.android_tp7b;
 
+import android.util.Log;
+
+import java.io.Serializable;
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /**
  * Created by tgoudouneix on 11/10/2017.
  */
 
-public class Quiz {
+public class Quiz implements Serializable {
     private ArrayList<Question> questions;
-    private Iterator<Question> iterator;
-    private int score = 0;
-    private int current = 0;
+    private Integer score = 0;
+    private Integer current = -1;
 
     public Quiz(ArrayList<Question> questions) {
         this.questions = questions;
         reset();
     }
 
-    public int getCurrent() {
+    public Integer getCurrent() {
         return current;
     }
 
-    public int getScore() {
+    public Integer getScore() {
         return score;
     }
 
-    public int getTotalQuestions() {
+    public Integer getTotalQuestions() {
         return questions.size();
     }
 
     public void reset() {
         score = 0;
         current = 0;
-        iterator = questions.iterator();
     }
 
-    public boolean answer(char answer) {
+    public boolean answer(String answer) {
+        Log.d("Info", "Answer : " + answer + " | Good answer : " + questions.get(current).goodAnswer);
         if (answer == questions.get(current).goodAnswer) {
             addScore();
             return true;
@@ -50,6 +51,16 @@ public class Quiz {
     }
 
     public Question getNextQuestion() {
-        return questions.iterator().next();
+        current++;
+        return questions.get(current);
+    }
+
+    @Override
+    public String toString() {
+        return "Quiz{" +
+                "questions=" + questions.toString() +
+                ", score=" + score +
+                ", current=" + current +
+                '}';
     }
 }
