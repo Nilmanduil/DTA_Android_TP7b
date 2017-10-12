@@ -33,12 +33,12 @@ public class Quiz implements Serializable {
 
     public void reset() {
         score = 0;
-        current = 0;
+        current = -1;
     }
 
     public boolean answer(String answer) {
         Log.d("Info", "Answer : " + answer + " | Good answer : " + questions.get(current).goodAnswer);
-        if (answer == questions.get(current).goodAnswer) {
+        if (answer.equals(questions.get(current).goodAnswer)) {
             addScore();
             return true;
         }

@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
 
         // Set question text + theme
         TextView questionLabel = (TextView) findViewById(R.id.question);
-        questionLabel.setText("Question " + currentNumber + "/" + totalNumber + " : " + currentQuestion.label);
+        questionLabel.setText("Question " + (currentNumber + 1) + "/" + totalNumber + " : " + currentQuestion.label);
         // questionLabel.setTextColor(R.color.theme1);
         TextView questionTheme = (TextView) findViewById(R.id.theme);
         questionTheme.setText(currentQuestion.theme);

@@ -35,7 +35,14 @@ public class AnswerActivity extends AppCompatActivity {
         nextButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent nextIntent = new Intent(AnswerActivity.this, MainActivity.class);
+                Intent nextIntent;
+                if(quiz.getCurrent() == quiz.getTotalQuestions() - 1) {
+                    nextIntent = new Intent(AnswerActivity.this, ResultActivity.class);
+                }
+                else {
+                    nextIntent = new Intent(AnswerActivity.this, MainActivity.class);
+                }
+
                 nextIntent.putExtra("quiz", quiz);
                 startActivity(nextIntent);
             }

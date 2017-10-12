@@ -16,7 +16,7 @@
                 theme:\"Pâtisserie (ou troll ?)\",
                 A:\"Pain au chocolat\",
                 B:\"Chocolatine\",
-                C:\"Ok\, file-moi le point Godwin, on gagnera du temps\",
+                C:\"Ok, file-moi le point Godwin,\non gagnera du temps\",
                 D:\"Sérieusement ?\",
                 answer:\"B\"
             }
@@ -27,7 +27,7 @@
                 theme:\"Méthodes de travail\",
                 A:\"Processus et les outils\",
                 B:\"Logiciels opérationnels\",
-                C:\"Collaboration avec les clients\",
+                C:\"Collaboration avec\nles clients\",
                 D:\"Individus et interactions\",
                 answer:\"A\"
             }
@@ -47,10 +47,10 @@
             {
                 question:\"Qu\'est-ce que GitHub ?\",
                 theme:\"Informatique\",
-                A:\"Une plateforme web de gestion de dépôts Git\",
+                A:\"Une plateforme web de\ngestion de dépôts Git\",
                 B:\"Une version améliorée de Git\",
                 C:\"Une clé USB permettant d\'installer Git\",
-                D:\"Une interface graphique pour lier Git et SVN\",
+                D:\"Une interface graphique\npour lier Git et SVN\",
                 answer:\"A\"
             }
         </item>
@@ -69,7 +69,7 @@
             {
                 question:\"Lorsqu\'un pancake tombe dans la neige avant le 31 décembre, on dit qu\'il est :\",
                 theme:\"Humour\",
-                A:\"Tombé dans la neige avant le 31 décembre\",
+                A:\"Tombé dans la neige\navant le 31 décembre\",
                 B:\"Un frizby comestible\",
                 C:\"Une kipa surgelée\",
                 D:\"La réponse D\",
